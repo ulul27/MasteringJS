@@ -14,7 +14,10 @@
 
 // bisa ngloping jg ternyata di dom
 
-// cara 1
+
+
+// <<<<< CARA 1 >>>>>
+
 // let i = 0
 
 // for (let r of p) {
@@ -34,7 +37,7 @@
 //   i++
 // }
 
-// cara 2 Manual for loop
+// <<<<< CARA 2 >>>>> " Manual for loop "
 
 // let i = 0
 // console.log(p.length);
@@ -49,7 +52,35 @@
 //   }
 // }
 
-//  tugas
+
+// +++++ TUGAS !!!!!! +++++
+
 // 1. pakai tag buat variabel h1 ubah font size 50px
+
+let font = document.getElementsByTagName('h1')
+
+for (let r of font) {
+  r.style.fontSize = '50px'
+  r.style.color = 'pink'
+}
+
+
 // 2. pKAI class name ambil kelas p1 terus ubah isinya jadi kata 'di ubah dari javascript'
+
+let p = document.getElementsByClassName('p1')[0]
+
+p.innerHTML = 'di UBAH dari JAVASCRIPT'
+
+
 // 3. pakai tag buat variabel li ambil tag pakai li ubah warna tulisan pertama dan ketiga merah, dua kuning
+
+let li = document.getElementsByTagName('li')
+
+for (let i = 0; i < li.length; i++) {
+
+  if (i % 2 == 0) {
+    li[i].style.color = 'red'
+  } else {
+    li[i].style.color = 'yellow'
+  }
+}
