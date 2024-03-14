@@ -1,2 +1,2 @@
 # MasteringJS
-latihan dari Mas Abu
+Materi dan Latihan serta Kuis dari Mas Abu RWID
