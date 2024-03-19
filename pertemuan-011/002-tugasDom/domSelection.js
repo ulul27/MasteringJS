@@ -57,12 +57,16 @@
 
 // 1. pakai tag buat variabel h1 ubah font size 50px
 
-let font = document.getElementsByTagName('h1')
+let font = document.getElementsByTagName('h1')[0]
 
-for (let r of font) {
-  r.style.fontSize = '50px'
-  r.style.color = 'pink'
-}
+// for (let r of font) {
+//   r.style.fontSize = '50px'
+//   r.style.color = 'pink'
+// }
+font.style.fontSize = '50px'
+
+
+console.log(font);
 
 
 // 2. pKAI class name ambil kelas p1 terus ubah isinya jadi kata 'di ubah dari javascript'
