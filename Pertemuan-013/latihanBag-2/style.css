@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(236, 228, 228);
+}
+
+a {
+  color: pink;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+}
+
+header {
+  text-align: center;
+  color: green;
+  padding: 20px;
+  font-size: 25px;
+}
+
+.container {
+  width: 850px;
+  margin: auto;
+  background-color: white;
+}
+
+.container ul{
+  display: flex;
+  justify-content: flex-start;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.container li {
+  margin-right: 25px;
+  list-style:none;
+}
+
+
+.image {
+  height: 350px;
+  background-image: url(img/hero.jpg);
+  background-size: cover;
+  background-position: 0 -20px;
+  border-top: 7px solid rgb(55, 55, 168);
+  border-bottom: 7px solid salmon;
+}
+
+.content {
+  padding-top: 20px;
+  margin-left: 25px;
+  display: flex;
+}
+
+.kiri, .kanan {
+  flex: 1;
+}
+
+footer {
+  color: white;
+  background-color: black;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+}
