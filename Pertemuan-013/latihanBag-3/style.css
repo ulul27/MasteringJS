@@ -17,6 +17,18 @@ a:hover {
   color: black;
 }
 
+.twiter {
+  width: 200px;
+  height: 200px;
+  background-image: url(img/twitter.png);
+  /* background-repeat: no-repeat; */
+  /* display: inline-block; */
+  /* text-indent: -9999px; */
+  position: absolute;
+  top: 55px;
+  right: 32px;
+}
+
 header {
   text-align: center;
   color: green;
@@ -24,9 +36,20 @@ header {
   font-size: 25px;
 }
 
+.topbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  background-color: pink;
+  border-bottom: 3px solid black;
+  z-index: 9999;
+}
+
 .container {
   width: 950px;
-  margin: auto;
+  margin: 80px auto;
   background-color: white;
 }
 
