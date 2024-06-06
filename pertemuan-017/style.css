@@ -1,0 +1,24 @@
+.hero {
+  height: 450px;
+  background-image: url(img/hero.jpg);
+  background-size: cover;
+  background-position: 0 -20px;
+  border-top: 5px solid lightskyblue;
+  border-bottom: 5px solid salmon;
+}
+
+.sidebar img {
+  width: 100px;
+  height: 100px;
+  float: left;
+  padding-right: 10px;
+}
+
+a {
+text-decoration: none;
+color: salmon;
+}
+
+.row p {
+  text-align: justify;
+}
