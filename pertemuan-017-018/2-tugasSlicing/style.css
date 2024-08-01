@@ -22,3 +22,27 @@ body {
   font-weight: 500;
   font-style: bold;
 }
+
+.text-42 {
+  font-size: 42px;
+}
+
+.w-63 {
+  width: 63%;
+}
+
+.text-16 {
+font-size: 16px;
+}
+
+.bg-blue {
+  background-color: #3252DF;
+}
+
+.text-20 {
+  font-size: 20px;
+}
+
+.text-15 {
+  font-size: 15px;
+}
